@@ -1,4 +1,4 @@
-def ton_n(items, n):
+def top_n(items, n):
     """Return the top n items in an array in desc order.
     
     Args:
@@ -22,4 +22,4 @@ def ton_n(items, n):
     top_n = items[-n:]
 
     # return in descending order
-    return ton_n[::-1]
+    return top_n[::-1]
